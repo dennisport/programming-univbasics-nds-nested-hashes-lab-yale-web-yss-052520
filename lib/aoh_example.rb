@@ -31,23 +31,23 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  aoh = [
+  aoh_lookup = [
     :DON_G,
     :JOELLE_VD,
     :KATE_G,
     :BRUCE_G,
     ]
-    aoh[2][1]
+    aoh_lookup[2][1]
 end
 
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
-  aoh = [
+  aoh_update = [
     :DON_G,
     :JOELLE_VD,
     :KATE_G,
     :BRUCE_G,
     ]
-    aoh[1][1] = "Joelle van Dyne (PGOAT)"
+    aoh_update[1][1] = "Joelle van Dyne (PGOAT)"
 end
