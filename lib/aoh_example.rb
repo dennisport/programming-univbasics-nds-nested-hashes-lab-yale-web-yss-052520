@@ -31,12 +31,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  aoh_lookup = [
-    :DON_G,
-    :JOELLE_VD,
-    :KATE_G,
-    :BRUCE_G,
-    ]
+  aoh_lookup = 
     aoh_lookup[2][1]
 end
 
