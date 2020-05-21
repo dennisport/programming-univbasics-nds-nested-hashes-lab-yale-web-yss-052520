@@ -37,7 +37,7 @@ def aoh_lookup(aoh, row, key)
     :KATE_G,
     :BRUCE_G,
     ]
-    aoh[2][name:]
+    aoh[2][1]
 end
 
 def aoh_update(aoh, row, key, new_value)
@@ -49,5 +49,5 @@ def aoh_update(aoh, row, key, new_value)
     :KATE_G,
     :BRUCE_G,
     ]
-    aoh[1][name:] = "Joelle van Dyne (PGOAT)"
+    aoh[1][1] = "Joelle van Dyne (PGOAT)"
 end
